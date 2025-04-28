@@ -935,7 +935,7 @@ export default function MobilNavbar({user, game} : {user: any, game: any}) {
                               className={`text-[15px] text-[#BA8E09]`}
                               onClick={() => {
                             
-                                window.open("https://gold.goodtether.com/kr/polygon/pay-usdt/0?storeUser="+user?.email+"@2000001"+"&depositName="+user?.depositName+"&depositBankName="+user?.depositBankName, "popup", "width=500,height=950");
+                                window.open("https://best.goodtether.com/kr/polygon/pay-usdt/0?storeUser="+user?.email+"@2001001"+"&depositName="+user?.depositName+"&depositBankName="+user?.depositBankName, "popup", "width=500,height=950");
 
 
 

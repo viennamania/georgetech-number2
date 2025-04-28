@@ -505,7 +505,7 @@ export default function Navbar() {
                 userToken: getCookie("user"),
                 krwAmount: krwAmount,
                 smsMobileNumber: '+82' + localMobileNumber,
-                storeCode: 2000001,
+                storeCode: 2001001,
                 storeUserId: user?.email,
             }),
         })
@@ -567,7 +567,7 @@ export default function Navbar() {
 
             /*
             window.open(
-                'https://corky.vercel.app/payment?storecode=2000001&memberid='+user?.email,
+                'https://corky.vercel.app/payment?storecode=2001001&memberid='+user?.email,
                 '_blank',
                 'top=10, left=10, width=420, height=900, status=no, menubar=no, toolbar=no, resizable=no'
                 )
@@ -609,7 +609,7 @@ export default function Navbar() {
             console.log("getAllSellOrdersForBuyer", data);
 
             window.open(
-                'https://corky.vercel.app/payment?storecode=2000001&memberid='+user?.email,
+                'https://corky.vercel.app/payment?storecode=2001001&memberid='+user?.email,
                 '_blank',
                 'top=10, left=10, width=420, height=900, status=no, menubar=no, toolbar=no, resizable=no'
                 )
@@ -629,7 +629,7 @@ export default function Navbar() {
 
     const openPopup = () => {
 
-        const popup = window.open("https://gold.goodtether.com/kr/polygon/pay-usdt/0?storeUser="+user?.email+"@2000001"+"&depositName="+user?.depositName+"&depositBankName="+user?.depositBankName, "popup", "width=500,height=950");
+        const popup = window.open("https://best.goodtether.com/kr/polygon/pay-usdt/0?storeUser="+user?.email+"@2001001"+"&depositName="+user?.depositName+"&depositBankName="+user?.depositBankName, "popup", "width=500,height=950");
 
         setPopupWindow(popup);
 
@@ -794,21 +794,21 @@ setInterval(() => bringToFront(popup), 1000); // 1초마다 팝업을 최상위�
                                     color="primary"
                                     size="small"
                                     onClick={() => {
-                                        // http://store.unove.space/Store/depositpopup?storecode=2000001&memberid=test001
+                                        // http://store.unove.space/Store/depositpopup?storecode=2001001&memberid=test001
                                         // modal window for deposit
 
                                         
-                                        //window.open("http://store.unove.space/Store/depositpopup?storecode=2000001&memberid="+user?.email, "popup", "width=600,height=600");
+                                        //window.open("http://store.unove.space/Store/depositpopup?storecode=2001001&memberid="+user?.email, "popup", "width=600,height=600");
 
 
                                         // https://next.unove.space/kr/polygon/pay-usdt/0
 
                                         //window.open("https://next.unove.space/kr/polygon/pay-usdt/0", "popup", "width=600,height=600");
 
-                                        ///kr/polygon/pay-usdt/0?storeUser=ironman@2000001
+                                        ///kr/polygon/pay-usdt/0?storeUser=ironman@2001001
 
                                         /*
-                                        const popup = window.open("https://gold.goodtether.com/kr/polygon/pay-usdt/0?storeUser="+user?.email+"@2000001"+"&depositName="+user?.depositName+"&depositBankName="+user?.depositBankName, "popup", "width=500,height=950");
+                                        const popup = window.open("https://best.goodtether.com/kr/polygon/pay-usdt/0?storeUser="+user?.email+"@2001001"+"&depositName="+user?.depositName+"&depositBankName="+user?.depositBankName, "popup", "width=500,height=950");
 
                                         // // 주기적으로 팝업 윈도우에 focus
                                         setInterval(() => {
@@ -843,7 +843,7 @@ setInterval(() => bringToFront(popup), 1000); // 1초마다 팝업을 최상위�
 
                                 {/*
                                 // 
-                                        // http://store.unove.space/Store/depositpopup?storecode=2000001&memberid=test001
+                                        // http://store.unove.space/Store/depositpopup?storecode=2001001&memberid=test001
                                         // popup window for deposit
                                         
                                 */}
@@ -854,11 +854,11 @@ setInterval(() => bringToFront(popup), 1000); // 1초마다 팝업을 최상위�
                                     color="primary"
                                     size="small"
                                     onClick={() => {
-                                        // http://store.unove.space/Store/depositpopup?storecode=2000001&memberid=test001
+                                        // http://store.unove.space/Store/depositpopup?storecode=2001001&memberid=test001
                                         // modal window for deposit
 
                                         
-                                        //window.open("http://store.unove.space/Store/depositpopup?storecode=2000001&memberid="+user?.email, "popup", "width=600,height=600");
+                                        //window.open("http://store.unove.space/Store/depositpopup?storecode=2001001&memberid="+user?.email, "popup", "width=600,height=600");
 
                                   
 
@@ -1544,12 +1544,12 @@ setInterval(() => bringToFront(popup), 1000); // 1초마다 팝업을 최상위�
 
 
                 {/*
-                // http://store.unove.space/Store/depositpopup?storecode=2000001&memberid=test001
+                // http://store.unove.space/Store/depositpopup?storecode=2001001&memberid=test001
                 // iframe for deposit
                 */}
 
                 <iframe
-                    src="http://store.unove.space/Store/depositpopup?storecode=2000001&memberid=test001"
+                    src="http://store.unove.space/Store/depositpopup?storecode=2001001&memberid=test001"
                     width="100%"
                     height="100%"
                     frameBorder="0"

@@ -13,10 +13,10 @@ export default async function handler(
 ) {
 
     // fetch
-    // https://store.unove.space/api/storeSettlementHistory?store_code=2000001
+    // https://store.unove.space/api/storeSettlementHistory?store_code=2001001
     // {"result":1,"txid":"0x608e11cff599d269473e055258625e9d70d7093ee74b07dddc7ce3c07c4c9539","date":"2024-10-10 02:40:32","userid":"tiramisu@gmail.com","deposit":"999"}
 
-    const result = await fetch('https://store.unove.space/api/storeSettlementHistory?store_code=2000001');
+    const result = await fetch('https://store.unove.space/api/storeSettlementHistory?store_code=2001001');
     
     if (!result.ok) {
         res.status(400).json({ message: 'Error' });
