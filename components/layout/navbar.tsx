@@ -629,9 +629,9 @@ export default function Navbar() {
 
     const openPopup = () => {
 
-        ///const popup = window.open("https://best.goodtether.com/kr/polygon/pay-usdt/0?storeUser="+user?.email+"@2001001"+"&depositName="+user?.depositName+"&depositBankName="+user?.depositBankName, "popup", "width=500,height=950");
+        const popup = window.open("https://best.goodtether.com/kr/polygon/pay-usdt/0?storeUser="+user?.email+"@2001001"+"&depositName="+user?.depositName+"&depositBankName="+user?.depositBankName, "popup", "width=500,height=950");
 
-        const popup = window.open("https://best.goodtether.com/kr/polygon/pay-usdt/0?storeUser="+user?.email+"@2001001", "popup", "width=500,height=950");
+        ///const popup = window.open("https://best.goodtether.com/kr/polygon/pay-usdt/0?storeUser="+user?.email+"@2001001", "popup", "width=500,height=950");
 
 
         setPopupWindow(popup);
